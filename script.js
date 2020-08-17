@@ -25,6 +25,9 @@ heading.classList.add("subheading");
 // answer to question 5 
 
 const paragraphs = document.querySelectorAll("p")
+for (let i = 0; i < paragraphs.length; i++) {
+  paragraphs[i].style.color = "red";
+}
 
 
 // answer to question 6 
